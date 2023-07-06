@@ -4,8 +4,7 @@
 1. [Descripción general](#section1)
 2. [Posibles solicitudes para consumir la API](#section2)
 3. [URL/Endpoints para consumir la API](#section3)
-4. [Comentarios finales](#section6)
-5. [Elementos necesarios para utilizar el servicio desde cualquier cliente](#section7)
+4. [Comentarios finales](#section4)
 
 <a id='section1'></a>
 ## Descripción general
@@ -390,3 +389,9 @@ CCMdoSec;2022-12-30;P1D;kWh;TCDT;TX4;3366036 )
   "message": "Error al obtener el archivo o no existe"
 }
 ```
+
+
+<a id='section4'></a>
+## Comentarios finales
+Tener en cuenta que el formato de fecha que recibe la API es YYYY-MM-DD, también los UID ó Ids deben de existir previamente en la base de datos
+
